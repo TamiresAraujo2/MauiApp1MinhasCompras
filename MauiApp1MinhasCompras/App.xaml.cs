@@ -7,11 +7,13 @@ namespace MauiApp1MinhasCompras
         public App()
         {
             InitializeComponent();
+
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.LIstaProduto());
+            // navigationPage é a página de navegação, e a LIstaProduto
+            // é a página inicial que será exibida dentro da navegação.
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+
     }
 }
