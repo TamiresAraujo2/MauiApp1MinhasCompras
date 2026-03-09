@@ -10,6 +10,7 @@ namespace MauiApp1MinhasCompras
 
             //MainPage = new MainPage();
             MainPage = new NavigationPage(new Views.LIstaProduto());
+
             // navigationPage é a página de navegação, e a LIstaProduto
             // é a página inicial que será exibida dentro da navegação.
         }
